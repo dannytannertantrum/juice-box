@@ -1,0 +1,31 @@
+# dependencies
+node_modules
+coverage
+/.pnp
+.pnp.js
+
+build
+log
+static
+
+# python
+__pycache__
+*.pyc
+.venv
+*.egg-info*
+.coverage
+*.pytest_cache
+*.mypy_cache
+.python-version
+
+# misc
+.DS_Store
+envs/*.env
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.swp
+*.swo
+*.swn
