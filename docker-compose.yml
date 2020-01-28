@@ -4,8 +4,8 @@ services:
     build:
       context: ./api
     ports:
-      - "5000:5000"
-    command: uvicorn --reload --workers 1 --host 0.0.0.0 --port 5000 app.app:app
+      - "7000:7000"
+    command: uvicorn --reload --workers 1 --host 0.0.0.0 --port 7000 app.app:app
     volumes:
       - ./api/app:/opt/api/app
       - ./api/tests:/opt/api/tests
