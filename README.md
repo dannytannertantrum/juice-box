@@ -16,8 +16,8 @@ Your app should be running at http://127.0.0.1:7000/
 
 
 ## Testing with Pytest ##
-Shell into the `api` container from the root directory:
-`$ docker exec -it juice-box_api_1 /bin/bash` - `/bin/bash` allows us to use bash inside the container.
+Shell into the `api` container from the root directory: 
+`$ docker exec -it juice-box_api_1 /bin/bash`
 
 Within the container, run pytest to run all tests:
 `$ pytest`
