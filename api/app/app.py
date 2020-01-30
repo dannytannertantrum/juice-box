@@ -4,12 +4,12 @@ from app.data.deeds import data
 app = FastAPI()
 
 
-@app.get('/')
+@app.get("/")
 def root():
-    return {'message': 'Hello, world!'}
+    return {"message": "Hello, world!"}
 
 
-@app.get('/deeds')
+@app.get("/deeds")
 def deeds():
     return get_deeds()
 
